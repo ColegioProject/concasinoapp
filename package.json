@@ -1,0 +1,36 @@
+{
+  "name": "conway-casino",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "ethers": "^6.11.0",
+    "viem": "^2.13.0",
+    "wagmi": "^2.9.0",
+    "@tanstack/react-query": "^5.28.0",
+    "uuid": "^9.0.0",
+    "nanoid": "^5.0.7",
+    "@rainbow-me/rainbowkit": "^2.1.2",
+    "@supabase/supabase-js": "^2.43.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^9",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.0"
+  }
+}
